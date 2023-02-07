@@ -24,6 +24,10 @@ int main() {
             }
         }
         wordCount = spaceCount + 1;
+        if(charCount > 0) {
+            wordCount++;
+            lineCount++;
+        }
         printf("Number of characters: %d", charCount);
         printf("\nNumber of words: %d", wordCount);
         printf("\nNumber of spaces: %d", spaceCount);
