@@ -9,7 +9,7 @@ int main() {
     FILE *filePointer;
     char ch;
     int charCount = 0, wordCount = 0, spaceCount = 0, lineCount = 0;
-    filePointer = fopen("1a_CharCount.c", "r");
+    filePointer = fopen("test.txt", "r");
     if (filePointer == NULL) {
         printf("File does not exist.");
     }
