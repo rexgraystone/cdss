@@ -10,9 +10,18 @@
 %}
 
 %%
-[\n\0] { lineCount++; charCount+=yyleng;}
-[  \t] { spaceCount++; charCount+=yyleng;}
-[^\t\n ]+ { wordCount++;  charCount+=yyleng;}
+[\n\0]  { 
+            lineCount++; 
+            charCount+=yyleng;
+        }
+[  \t]  { 
+            spaceCount++; 
+            charCount+=yyleng;
+        }
+[^\t\n ]+   { 
+                wordCount++;  
+                charCount+=yyleng;
+            }
 %%
 
 int yywrap(void) {
