@@ -33,8 +33,7 @@ int main() {
     yyin = fopen("test.txt", "r");
     if (yyin == NULL) {
         printf("File does not exist.\n");
-    }
-    else {
+    } else {
         yylex();
         printf("Number of characters: %d", charCount);
         printf("\nNumber of words: %d", wordCount);
