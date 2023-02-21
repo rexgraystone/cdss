@@ -8,6 +8,9 @@ This repository contains all the Python, Prolog, and Lisp programs that I have e
 | :---: | :--- | :--- |
 | 1a | [1a_CharCount.l](https://github.com/rexgraystone/cdss/blob/main/1a_CharCount.l) | A Lex program that count the number of characters, spaces, words and lines in a given text file. |
 | 1b | [1b_IdentifierCount.l](https://github.com/rexgraystone/cdss/blob/main/1b_IdentifierCount.l) | A Lex program that count the number of identifiers in a given program file. |
+| 2a | [2a_CommentCount.l](https://github.com/rexgraystone/cdss/blob/main/2a_CommentCount.l) | A Lex program that counts the number of comments in a given program file. It also removes the comments and stores the remaining text into a new file. |
+| 2b | [2b_Sentences.l](https://github.com/rexgraystone/cdss/blob/main/2b_Sentences.l) | A Lex program that recognizes whether a given sentence is simple or compound. |
+
 
 ## How to Run
 
