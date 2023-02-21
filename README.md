@@ -11,7 +11,6 @@ This repository contains all the Python, Prolog, and Lisp programs that I have e
 | 2a | [2a_CommentCount.l](https://github.com/rexgraystone/cdss/blob/main/2a_CommentCount.l) | A Lex program that counts the number of comments in a given program file. It also removes the comments and stores the remaining text into a new file. |
 | 2b | [2b_Sentences.l](https://github.com/rexgraystone/cdss/blob/main/2b_Sentences.l) | A Lex program that recognizes whether a given sentence is simple or compound. |
 
-
 ## How to Run
 
 1. Ensure that you have a C compiler installed on your system.
