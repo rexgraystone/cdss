@@ -1,5 +1,5 @@
 /*
-    2a. Write a Lex count the numbers of comment lines in a given C program. Also, eliminate them and copy the resulting program into separate file.
+    2a. Write a Lex program to count the numbers of comment lines in a given C program. Also, eliminate them and copy the resulting program into separate file.
 */
 
 %{ 
@@ -7,12 +7,28 @@
     int comCount=0; 
 %}
 
+%s comment
+
 %%
-"/*"[a-zA-Z0-9\n\t ]*"*/"  {
+"/*" {
+    BEGIN comment;
+}
+<comment>"*/" {
+    BEGIN 0;
     comCount++;
 }
-"//"[a-zA-Z0-9\n\t ]*"\n"   {
+<comment>\n {
     comCount++;
+}
+<comment>. { 
+    ;
+}
+"//".* {
+    ; 
+    comCount++;
+}
+.|\n {
+    fprintf(yyout, "%s", yytext);
 }
 %%
 
