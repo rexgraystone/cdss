@@ -1,5 +1,5 @@
 /*
-    2a. Write a Lex Program to recognize whether a given sentence is simple or compound.
+    2b. Write a Lex Program to recognize whether a given sentence is simple or compound.
 */
 
 %{
