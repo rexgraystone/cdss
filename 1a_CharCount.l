@@ -29,7 +29,6 @@ int yywrap(void) {
 }
 
 int main() {
-    char ch;
     yyin = fopen("test.txt", "r");
     if (yyin == NULL) {
         printf("File does not exist.\n");
