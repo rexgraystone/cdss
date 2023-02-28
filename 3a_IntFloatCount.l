@@ -1,5 +1,5 @@
 /*
-    3a. Write a Lex program to count the number of positive and negative integers and floats.
+    3a. Write a Lex program to count the number of positive and negative integers and fractions.
 */
 
 %{
