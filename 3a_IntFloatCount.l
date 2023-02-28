@@ -1,5 +1,5 @@
 /*
-    3a. Write a lex program to count the number of positive and negative integers and floats.
+    3a. Write a Lex program to count the number of positive and negative integers and floats.
 */
 
 %{
@@ -36,5 +36,6 @@ int main() {
         yylex();
         printf("\nPositive integers = %d\nNegative integers = %d\nPositive floats = %d\nNegative floats = %d\n", posInt, negInt, posFloat, negFloat);
     }
+    fclose(yyin);
     return 0;
 }

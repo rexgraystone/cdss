@@ -5,7 +5,7 @@
 %{ 
     #include <stdio.h> 
     
-    int idCount=0; 
+    int idCount = 0; 
 %}
 letter [a-zA-Z] 
 digit [0-9] 
@@ -20,12 +20,14 @@ int yywrap(void) {
 }
 
 int main() {
-    yyin = fopen("lex.yy.c", "r");
+    yyin = fopen("input.txt", "r");
     if (yyin == NULL) {
         printf("File does not exist.\n");
     } else {
         yylex();
         printf("\nTotal number of identifiers: %d\n", idCount);
     }
+    fclose(yyin);
+    fclose(yyout);
     return 0;
 }

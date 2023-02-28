@@ -10,15 +10,15 @@
 %}
 
 %%
-[\n\0]+  { 
+[\n\0]+ { 
             lineCount++; 
             charCount+=yyleng;
 }
-[  \t]  { 
+[  \t] { 
             spaceCount++; 
             charCount+=yyleng;
 }
-[^\t\n ]+   { 
+[^\t\n ]+ { 
                 wordCount++;  
                 charCount+=yyleng;
 }

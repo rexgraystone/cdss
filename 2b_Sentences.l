@@ -32,7 +32,7 @@ int main() {
 	printf("Enter the sentence: \n");
 	yylex();
 	if(flag == 0)
-		printf("The given sentence is a simple sentence\n");
+		printf("The given sentence is a simple sentence.\n");
 	else
-		printf("The given sentence is a compound sentence\n");
+		printf("The given sentence is a compound sentence.\n");
 }

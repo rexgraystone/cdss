@@ -45,5 +45,7 @@ int main() {
         yylex();
         printf("Total number of comments: %d\n", comCount);
     }
+    fclose(yyin);
+    fclose(yyout);
     return 0;
 }
