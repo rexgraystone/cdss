@@ -10,6 +10,8 @@ This repository contains all the Python, Prolog, and Lisp programs that I have e
 | 1b | [1b_IdentifierCount.l](https://github.com/rexgraystone/cdss/blob/main/1b_IdentifierCount.l) | A Lex program that count the number of identifiers in a given program file. |
 | 2a | [2a_CommentCount.l](https://github.com/rexgraystone/cdss/blob/main/2a_CommentCount.l) | A Lex program that counts the number of comments in a given program file. It also removes the comments and stores the remaining text into a new file. |
 | 2b | [2b_Sentences.l](https://github.com/rexgraystone/cdss/blob/main/2b_Sentences.l) | A Lex program that recognizes whether a given sentence is simple or compound. |
+| 3a | [3a_IntFloatCount.l](https://github.com/rexgraystone/cdss/blob/main/3a_IntFloatCount.l) | A Lex program that counts the number of integers and fractions in a given file. |
+| 3b | [3b_PrintfCountl](https://github.com/rexgraystone/cdss/blob/main/3b_PrintfCount.l) | A Lex program that counts the number of 'scanf' and 'printf' statements, and replaces them with 'readf' and 'writef' respectively. |
 
 ## How to Run
 
