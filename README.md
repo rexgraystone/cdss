@@ -1,6 +1,6 @@
 # Compiler Design and System Software Lab
 
-This repository contains all the Python, Prolog, and Lisp programs that I have executed for my Artificial Intelligence Course in my 3rd Year of Computer Science Undergrad program at Dayananda Sagar University, Bengaluru, India in Q1 2023.
+This repository contains all the C, Lex, and Yacc programs that I have executed for my CDSS Course in my 3rd Year of Computer Science Undergrad program at Dayananda Sagar University, Bengaluru, India in Q1-Q2 2023.
 
 ## List of Programs
 
