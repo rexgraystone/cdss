@@ -11,16 +11,16 @@
 
 %%
 [\n\0]+ { 
-            lineCount++; 
-            charCount+=yyleng;
+    lineCount++; 
+    charCount+=yyleng;
 }
 [  \t] { 
-            spaceCount++; 
-            charCount+=yyleng;
+    spaceCount++; 
+    charCount+=yyleng;
 }
 [^\t\n ]+ { 
-                wordCount++;  
-                charCount+=yyleng;
+    wordCount++;  
+    charCount+=yyleng;
 }
 %%
 
