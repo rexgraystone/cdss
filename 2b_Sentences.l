@@ -8,14 +8,11 @@
     int flag = 0;
 %}
 
+space [ \t\n]
+compound [([aA][nN][dD])|([bB][uU][tT])|([oO][rR])]
+
 %%
-and |
-or |
-but |
-because |
-if |
-then |
-nevertheless { 
+[{space}+{compound}{space}+] { 
     flag = 1; 
 }
 . ;
