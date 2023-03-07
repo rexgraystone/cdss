@@ -3,9 +3,9 @@
 */
 
 %{
-    #include<stdio.h>
+    #include <stdio.h>
     int flag = 0;
-    void yyerror();
+    void yyerror(char *s);
     int yylex();
 %}
 %token NUM
@@ -37,5 +37,6 @@ int main() {
 }
 
 void yyerror(char *s) {
-    printf("\n%s\n",s);
+    printf("\n%s\n", s);
+    flag = 1;
 }

@@ -3,8 +3,8 @@
 */
 
 %{
-    #include<stdio.h>
-    #include"y.tab.h"
+    #include <stdio.h>
+    #include "y.tab.h"
     extern int yylval;
 %}
 
