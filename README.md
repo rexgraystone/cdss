@@ -12,6 +12,7 @@ This repository contains all the C, Lex, and Yacc programs that I have executed 
 | 2b | [2b_Sentences.l](https://github.com/rexgraystone/cdss/blob/main/2b_Sentences.l) | A Lex program that recognizes whether a given sentence is simple or compound. |
 | 3a | [3a_IntFloatCount.l](https://github.com/rexgraystone/cdss/blob/main/3a_IntFloatCount.l) | A Lex program that counts the number of integers and fractions in a given file. |
 | 3b | [3b_PrintfCountl](https://github.com/rexgraystone/cdss/blob/main/3b_PrintfCount.l) | A Lex program that counts the number of 'scanf' and 'printf' statements, and replaces them with 'readf' and 'writef' respectively. |
+| 4 | [4_EvalExpressions.l](https://github.com/rexgraystone/cdss/blob/main/4_EvalExpressions.l) [4_EvalExpression.y](https://github.com/rexgraystone/cdss/blob/main/4_EvalExpressions.y) | A Yacc program that evaluates the given arithmetic expressions. |
 
 ## How to Run
 
