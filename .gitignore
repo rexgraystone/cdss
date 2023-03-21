@@ -1,5 +1,6 @@
 *.out
 *.txt
-*.c
+lex.yy.c
+y.tab.c
 *.h
 *.gch
