@@ -13,6 +13,8 @@ This repository contains all the C, Lex, and Yacc programs that I have executed 
 | 3a | [3a_IntFloatCount.l](https://github.com/rexgraystone/cdss/blob/main/3a_IntFloatCount.l) | A Lex program that counts the number of integers and fractions in a given file. |
 | 3b | [3b_PrintfCountl](https://github.com/rexgraystone/cdss/blob/main/3b_PrintfCount.l) | A Lex program that counts the number of 'scanf' and 'printf' statements, and replaces them with 'readf' and 'writef' respectively. |
 | 4 | [4_EvalExpressions.l](https://github.com/rexgraystone/cdss/blob/main/4_EvalExpressions.l) [4_EvalExpression.y](https://github.com/rexgraystone/cdss/blob/main/4_EvalExpressions.y) | A Yacc program that evaluates the given arithmetic expressions. |
+| 5 | [5_ValidIdentifier.l](https://github.com/rexgraystone/cdss/blob/main/5_ValidIdentifier.l) [5_ValidIdentifier.y](https://github.com/rexgraystone/cdss/blob/main/5_ValidIdentifier.y) | A Yacc program that checks whether a given string is a valid identifier or not. |
+| 6 | [6_RecognizeGrammar.l](https://github.com/rexgraystone/cdss/blob/main/6_RecognizeGrammar.l) [6_RecognizeGrammar.y](https://github.com/rexgraystone/cdss/blob/main/6_RecognizeGrammar.y) | A Yacc program that recognizes whether a given string follows a grammar or not. |
 
 ## How to Run
 
