@@ -23,7 +23,7 @@ int main() {
             fscanf(fp,"%s",line);
             if(line[0]=='T') {
                 for(i = 2, j = 0; i < 8, j < 6; i++, j++)
-                staddr[j] = line[i];
+                    staddr[j] = line[i];
                 staddr[j] = '\0';
                 staddr1 = atoi(staddr);
                 i = 12;

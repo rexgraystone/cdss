@@ -12,7 +12,6 @@
 %%
 start: letter s
 s: letter s | digit s | ;
-
 %%
 
 int yyerror() {
