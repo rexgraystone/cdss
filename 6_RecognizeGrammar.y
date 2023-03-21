@@ -1,5 +1,5 @@
 /*
-    6. Write a YACC Program to recognize the strings of the form (a^nb^n) where n>=0.
+    6. Write a YACC Program to recognize the strings of the form (a^nb^n), where n>=0.
 */
 
 
@@ -26,6 +26,6 @@ int yyerror(char *msg) {
 }
   
 int main() {
-    printf("Enter a string: ");
+    printf("Enter any string: ");
     yyparse();
 }
