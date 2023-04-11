@@ -50,6 +50,7 @@ int main() {
 }
 
 /*
+    Sample Input:
     E=TD
     D=+TD
     D=$
