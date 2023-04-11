@@ -20,7 +20,6 @@ This repository contains all the C, Lex, and Yacc programs that I have executed 
 | 9 | [9_FIRST.C](https://github.com/rexgraystone/cdss/blob/main/9_FIRST.C) | A C program that initializes the FIRST set of a context free grammar. |
 | 10 | [10_ShiftReduceParser.C](https://github.com/rexgraystone/cdss/blob/main/10_ShiftReduceParser.C) | A C program that implements the Shift-Reduce Parser. |
 
-
 ## How to Run
 
 1. Ensure that you have a C compiler installed on your system.
