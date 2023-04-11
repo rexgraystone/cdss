@@ -30,7 +30,7 @@ int main() {
     char c, ch;
     printf("How many productions?: ");
     scanf("%d", &count);
-    printf("Enter %d productions epsilon = $:\n\n", count);
+    printf("Enter %d productions (use $ for epsilon):\n\n", count);
     for(i = 0; i < count; i++)
         scanf("%s%c", prodn[i], &ch);
     do {
@@ -50,16 +50,12 @@ int main() {
 }
 
 /*
-E=TD
-D=+TD
-D=$
-T=FS
-S=*FS
-S=$
-F=(E)
-F=a
-
-FIRST (E) = FIRST (T) =FIRST (F) = { ( , a}
-FIRST (D) = { + , ε }
-FIRST (S)= { * ,  ε  }
+    E=TD
+    D=+TD
+    D=$
+    T=FS
+    S=*FS
+    S=$
+    F=(E)
+    F=a
 */
