@@ -28,6 +28,5 @@ int main() {
         printf("\nTotal number of identifiers: %d\n", idCount);
     }
     fclose(yyin);
-    fclose(yyout);
     return 0;
 }

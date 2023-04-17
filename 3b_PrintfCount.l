@@ -5,6 +5,7 @@
 
 %{
     #include <stdio.h>
+    
     int scanfCount = 0, printfCount = 0;
 %}
 
