@@ -4,8 +4,8 @@
 
 %{ 
     #include <stdio.h> 
-    
-    int comCount=0; 
+
+    int comCount = 0; 
 %}
 
 %s comment
