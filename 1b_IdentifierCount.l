@@ -7,8 +7,10 @@
     
     int idCount = 0; 
 %}
+
 letter [a-zA-Z] 
 digit [0-9] 
+
 %% 
 {letter}({letter}|{digit})* {
     idCount++;
