@@ -4,7 +4,7 @@
 
 %{
     #include <stdio.h>
-    
+
     int posInt = 0, negInt = 0, posFloat = 0, negFloat = 0;
 %}
 

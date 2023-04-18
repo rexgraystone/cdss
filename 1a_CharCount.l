@@ -42,5 +42,3 @@ int main() {
     fclose(yyin);
     return 0;
 }
-
- 
