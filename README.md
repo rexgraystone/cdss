@@ -17,7 +17,7 @@ This repository contains all the C, Lex, and Yacc programs that I have executed 
 | 6 | [6_RecognizeGrammar.l](https://github.com/rexgraystone/cdss/blob/main/6_RecognizeGrammar.l) [6_RecognizeGrammar.y](https://github.com/rexgraystone/cdss/blob/main/6_RecognizeGrammar.y) | A Yacc program that recognizes whether a given string follows a grammar or not. |
 | 7 | [7_Pass1Assembler.c](https://github.com/rexgraystone/cdss/blob/main/7_Pass1Assembler.c) | A C program that implements the Pass 1 of the Assembler. |
 | 8 | [8_AbsoluteLoader.c](https://github.com/rexgraystone/cdss/blob/main/8_AbsoluteLoader.c) | A C program that implements the Absolute Loader. |
-| 9 | [9_FIRST.C](https://github.com/rexgraystone/cdss/blob/main/9_FIRST.C) | A C program that initializes the FIRST set of a context free grammar. |
+| 9 | [9_FIRST.C](https://github.com/rexgraystone/cdss/blob/main/9_FIRST.c) | A C program that initializes the FIRST set of a context free grammar. |
 | 10 | [10_ShiftReduceParser.C](https://github.com/rexgraystone/cdss/blob/main/10_ShiftReduceParser.C) | A C program that implements the Shift-Reduce Parser. |
 
 ## How to Run
