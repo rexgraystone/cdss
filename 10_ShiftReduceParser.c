@@ -29,13 +29,13 @@ void check() {
         } else if(stk[z] == 'E' && stk[z+1] == '*' && stk[z+2] == 'E') {
             stk[z] = 'E';
             stk[z+1] = '\0';
-            stk[z+1] = '\0';
+            stk[z+2] = '\0';
             printf("\n$%s\t%s$\t%s", stk, a, ac);
             i = i - 2;
         } else if(stk[z] == '(' && stk[z+1] == 'E' && stk[z+2] == ')') {
             stk[z] = 'E';
             stk[z+1] = '\0';
-            stk[z+1] = '\0';
+            stk[z+2] = '\0';
             printf("\n$%s\t%s$\t%s", stk, a, ac);
             i = i - 2;
         } else {
