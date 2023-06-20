@@ -100,19 +100,7 @@ This repository contains all the C, Lex, and Yacc programs that I have executed 
 
 **For YACC programs:**
 
-1. Compile the YACC program using the following command:
-
-    ``` bash
-    yacc -d <filename>.y
-    ```
-
-    Example:
-
-    ``` bash
-    yacc -d 4_EvalExpressions.y
-    ```
-
-2. Compile the Lex program using the following command:
+1. Compile the Lex program using the following command:
 
     ``` bash
     lex <filename>.l
@@ -124,8 +112,20 @@ This repository contains all the C, Lex, and Yacc programs that I have executed 
     lex 4_EvalExpressions.l
     ```
 
+2. Compile the YACC program using the following command:
+
+    ``` bash
+    yacc -d <filename>.y
+    ```
+
+    Example:
+
+    ``` bash
+    yacc -d 4_EvalExpressions.y
+    ```
+
 3. Compile the generated C file using the following command:
 
     ``` bash
-    gcc lex.yy.c y.tab.c -ll -ly -o <Output File Name>
+    gcc lex.yy.c y.tab.c -ll -o <Output File Name>
     ```
